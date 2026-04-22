@@ -8,15 +8,15 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-### 1. 1: Load and Normalize DataX = (X - mean(X)) / std(X)
+#### 1: Load and Normalize DataX = (X - mean(X)) / std(X)
 
-### 2: Initialize Parametersm = 0b = 0learning_rate = αepochs = Nn = number of samples
+#### 2: Initialize Parametersm = 0b = 0learning_rate = αepochs = Nn = number of samples
 
-### 3: Predict Outputy_pred = m * X + b
+#### 3: Predict Outputy_pred = m * X + b
 
-### 4: Compute Gradientsdm = (-2/n) * Σ [ X * (y - y_pred) ]db = (-2/n) * Σ [ (y - y_pred) ]
+#### 4: Compute Gradientsdm = (-2/n) * Σ [ X * (y - y_pred) ]db = (-2/n) * Σ [ (y - y_pred) ]
 
-### 5: Update Parameters (repeat for each epoch)m = m - α * dmb = b - α * db
+#### 5: Update Parameters (repeat for each epoch)m = m - α * dmb = b - α * db
  
 
 ## Program:
